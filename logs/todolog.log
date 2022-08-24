@@ -1,0 +1,170 @@
+info: 🏷️: Aug-24-2022 14:57:45: server is running on port 3000
+info: 🏷️: Aug-24-2022 14:58:03: Added task triggered!
+info: 🏷️: Aug-24-2022 14:58:03: Added new task name : {
+  "newtask": "1"
+}
+info: 🏷️: Aug-24-2022 14:58:08: Added task triggered!
+info: 🏷️: Aug-24-2022 14:58:08: Added new task name : {
+  "newtask": "2"
+}
+info: 🏷️: Aug-24-2022 14:58:09: Removed task triggered!
+info: 🏷️: Aug-24-2022 14:58:09: Removed task name : {
+  "newtask": "",
+  "removed": "1"
+}
+info: 🏷️: Aug-24-2022 14:58:09: Removed task triggered!
+info: 🏷️: Aug-24-2022 14:58:09: Removed task name : {
+  "newtask": "",
+  "removed": "2"
+}
+info: 🏷️: Aug-24-2022 15:00:01: server is running on port 3000
+info: 🏷️: Aug-24-2022 15:00:10: Added task triggered!
+info: 🏷️: Aug-24-2022 15:00:10: Added new task name : {
+  "newtask": "4"
+}
+info: 🏷️: Aug-24-2022 15:00:15: Added task triggered!
+info: 🏷️: Aug-24-2022 15:00:15: Added new task name : {
+  "newtask": "Task 1"
+}
+info: 🏷️: Aug-24-2022 15:00:17: Removed task triggered!
+info: 🏷️: Aug-24-2022 15:00:17: Removed task name : {
+  "newtask": "",
+  "removed": "4"
+}
+info: 🏷️: Aug-24-2022 15:00:18: Removed task triggered!
+info: 🏷️: Aug-24-2022 15:00:18: Removed task name : {
+  "newtask": "",
+  "removed": "Task 1"
+}
+info: 🏷️: Aug-24-2022 15:05:51: server is running on port 3000
+info: 🏷️: Aug-24-2022 15:05:58: Added task triggered!
+info: 🏷️: Aug-24-2022 15:08:00: server is running on port 3000
+info: 🏷️: Aug-24-2022 15:08:03: Added task triggered!
+warn: 🏷️: Aug-24-2022 15:08:03: Some warrning message
+error: 🏷️: Aug-24-2022 15:08:03: Some error message
+info: 🏷️: Aug-24-2022 15:08:03: Added new task name : {
+  "newtask": "Task 1"
+}
+info: 🏷️: Aug-24-2022 15:08:08: Removed task triggered!
+info: 🏷️: Aug-24-2022 15:08:08: Removed task name : {
+  "newtask": "",
+  "removed": "Task 1"
+}
+info: 🏷️: Aug-24-2022 15:08:14: Added task triggered!
+warn: 🏷️: Aug-24-2022 15:08:14: Some warrning message
+error: 🏷️: Aug-24-2022 15:08:14: Some error message
+info: 🏷️: Aug-24-2022 15:08:14: Added new task name : {
+  "newtask": "Task 2"
+}
+info: 🏷️: Aug-24-2022 15:08:15: Removed task triggered!
+info: 🏷️: Aug-24-2022 15:08:15: Removed task name : {
+  "newtask": "",
+  "removed": "Task 2"
+}
+info: : Aug-24-2022 15:11:41: server is running on port 3000
+info: : Aug-24-2022 15:11:48: Added task triggered!
+warn: : Aug-24-2022 15:11:48: Some warrning message
+error: : Aug-24-2022 15:11:48: Some error message
+info: : Aug-24-2022 15:11:48: Added new task name : {
+  "newtask": "11"
+}
+info: : Aug-24-2022 15:11:50: Added task triggered!
+warn: : Aug-24-2022 15:11:50: Some warrning message
+error: : Aug-24-2022 15:11:50: Some error message
+info: : Aug-24-2022 15:11:50: Added new task name : {
+  "newtask": "22"
+}
+info: undefined: Aug-24-2022 15:12:25: server is running on port 3000
+info: undefined: Aug-24-2022 15:12:35: Added task triggered!
+warn: undefined: Aug-24-2022 15:12:35: Some warrning message
+error: undefined: Aug-24-2022 15:12:35: Some error message
+info: undefined: Aug-24-2022 15:12:35: Added new task name : {
+  "newtask": "333"
+}
+info: undefined: Aug-24-2022 15:12:35: Removed task triggered!
+info: undefined: Aug-24-2022 15:12:35: Removed task name : {
+  "newtask": "",
+  "removed": "333"
+}
+info => Aug-24-2022 15:19:42: server is running on port 3000
+info => Aug-24-2022 15:19:50: Added task triggered!
+warn => Aug-24-2022 15:19:50: Some warrning message
+error => Aug-24-2022 15:19:50: Some error message
+info => Aug-24-2022 15:19:50: Added new task name : {
+  "newtask": "2211"
+}
+info => Aug-24-2022 15:19:53: Added task triggered!
+warn => Aug-24-2022 15:19:53: Some warrning message
+error => Aug-24-2022 15:19:53: Some error message
+info => Aug-24-2022 15:19:53: Added new task name : {
+  "newtask": "7777"
+}
+info => Aug-24-2022 15:19:54: Removed task triggered!
+info => Aug-24-2022 15:19:54: Removed task name : {
+  "newtask": "",
+  "removed": "2211"
+}
+info => Aug-24-2022 15:19:54: Removed task triggered!
+info => Aug-24-2022 15:19:54: Removed task name : {
+  "newtask": "",
+  "removed": "7777"
+}
+info: => Aug-24-2022 15:20:23: server is running on port 3000
+info: => Aug-24-2022 15:20:38: Added task triggered!
+warn: => Aug-24-2022 15:20:38: Some warrning message
+error: => Aug-24-2022 15:20:38: Some error message
+info: => Aug-24-2022 15:20:38: Added new task name : {
+  "newtask": "1"
+}
+info: => Aug-24-2022 15:20:40: Added task triggered!
+warn: => Aug-24-2022 15:20:40: Some warrning message
+error: => Aug-24-2022 15:20:40: Some error message
+info: => Aug-24-2022 15:20:40: Added new task name : {
+  "newtask": "2"
+}
+info: => Aug-24-2022 15:20:41: Removed task triggered!
+info: => Aug-24-2022 15:20:41: Removed task name : {
+  "newtask": "",
+  "removed": "1"
+}
+info: => Aug-24-2022 15:20:41: Removed task triggered!
+info: => Aug-24-2022 15:20:41: Removed task name : {
+  "newtask": "",
+  "removed": "2"
+}
+[32minfo[39m: => Aug-24-2022 15:23:40: server is running on port 3000
+[32minfo[39m: => Aug-24-2022 15:23:57: Added task triggered!
+[33mwarn[39m: => Aug-24-2022 15:23:57: Some warrning message
+[31merror[39m: => Aug-24-2022 15:23:57: Some error message
+[32minfo[39m: => Aug-24-2022 15:23:57: Added new task name : {
+  "newtask": "66"
+}
+[32minfo[39m: => Aug-24-2022 15:24:09: Removed task triggered!
+[32minfo[39m: => Aug-24-2022 15:24:09: Removed task name : {
+  "newtask": "",
+  "removed": "66"
+}
+info: => Aug-24-2022 15:24:34: server is running on port 3000
+info: => Aug-24-2022 15:24:38: Added task triggered!
+warn: => Aug-24-2022 15:24:38: Some warrning message
+error: => Aug-24-2022 15:24:38: Some error message
+info: => Aug-24-2022 15:24:38: Added new task name : {
+  "newtask": "77"
+}
+info: => Aug-24-2022 15:24:39: Removed task triggered!
+info: => Aug-24-2022 15:24:39: Removed task name : {
+  "newtask": "",
+  "removed": "77"
+}
+info: 👉 Aug-24-2022 15:29:50: server is running on port 3000
+info: 👉 Aug-24-2022 15:30:06: Added task triggered!
+warn: 👉 Aug-24-2022 15:30:06: Some warrning message
+error: 👉 Aug-24-2022 15:30:06: Some error message
+info: 👉 Aug-24-2022 15:30:06: Added new task name : {
+  "newtask": "Task 11123"
+}
+info: 👉 Aug-24-2022 15:30:08: Removed task triggered!
+info: 👉 Aug-24-2022 15:30:08: Removed task name : {
+  "newtask": "",
+  "removed": "Task 11123"
+}

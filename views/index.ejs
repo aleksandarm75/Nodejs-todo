@@ -1,36 +1,98 @@
 <html>
-<head> 
-<title> ToDo App </title>
- <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
- <link href="/styles.css" rel="stylesheet">
+
+<head>
+    <title> Simple To Do List Node.js App </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
-<div class="container">
-<h2> A Simple ToDo List App </h2>
+<section class="vh-100" style="background-color: #eee;">
+    <div class="container py-4 h-100 w-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-7">
+                <div class="card rounded-2">
+                    <div class="card-body p-4 position:fixed">
+                        <h2 class="text-left my-3 pb-3">
+                            Node.js : To do list <i class="fa fa-address-book" aria-hidden="true"></i>
+                            <i class="fa fa-solid fa-calendar"></i>
+                        </h2>
 
-<form action ="/addtask" method="POST">
+                        <form class="row row-cols-lg-auto g-3 justify-content-center align-items-center mb-4 pb-2"
+                            action="/addtask" method="POST">
+                            <div class="col-12">
+                                <div class="form-outline">
+                                    <input type="text" name="newtask" id="form1" class="form-control" />
+                                    <label class="form-label" for="form1">Enter a task here</label>
+                                </div>
+                            </div>
 
-<input type="text" name="newtask" placeholder="add new task">
-<button> Add Task </button>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Create task</button>
+                            </div>
 
+                            <label class="form-label font-weight-bold" for="form1">Active tasks</label>
+                            <table class="table mb-4 table-success table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Todo item</th>
+                                        <th scope="col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
 
-<h2> Added Task </h2>
+                                    <% for( var i=0; i < task.length; i++){ %>
+                                        <tr>
+                                            <th scope="row">
+                                                <%=i+1%>
+                                            </th>
+                                            <td>
+                                                <%= task[i] %>
+                                            </td>
+                                            <td>
+                                                <button name="removed" formaction="/removetask" type="submit"
+                                                    class="btn btn-success ms-1"
+                                                    value="<%= task[i] %>">Finished</button>
+                                            </td>
+                                        </tr>
 
-<% for( var i = 0; i < task.length; i++){ %>
-    <li><input type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </li>
-<% } %>
+                                        <% } %>
+                                </tbody>
+                            </table>
 
-<button formaction="/removetask" type="submit" id="top"> Remove </button>
-</form>
+                            <label class="form-label font-weight-bold" for="form1">Completed tasks</label>
+                            <table class="table table-info table-striped mb-4">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Todo item</th>
+                                        <th scope="col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
 
-<h2> Completed task </h2>
+                                    <% for(var i=0; i < complete.length; i++){ %>
+                                        <tr>
+                                            <th scope="row">
+                                                <%=i+1%>
+                                            </th>
+                                            <td>
+                                                <%= complete[i] %>
+                                            </td>
+                                            <td>
+                                                <i class="fa fa-check-circle fa-2x" aria-hidden="true"></i>
+                                            </td>
+                                        </tr>
+                                        <% } %>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
- <% for(var i = 0; i < complete.length; i++){ %>
-    <li><input type="checkbox" checked><%= complete[i] %> </li>
-<% } %>
-
-</div>
-
-</body>
 </html>
